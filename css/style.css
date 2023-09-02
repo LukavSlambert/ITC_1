@@ -1,4 +1,58 @@
+@font-face {
+    font-family:"Babylon5";
+    src:url("../fonts/Babylon5/B5______.eot") format("eot"),url("../fonts/Babylon5/B5______.woff") format("woff"),url("../fonts/Babylon5/B5______.ttf") format("truetype"),url("../fonts/Babylon5/B5______.svg") format("svg");font-weight:normal;font-style:normal;
+}
+.main_body {
+    background-image: url(../images/B5_logo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family:'Babylon5', Courier, monospace;
+}
+.navbar {
+    justify-content: center;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    max-height: 2.5rem;
+    top: 0;
+
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    font-size: large;
+    color: #b38848;
+    padding: 10px 20px;
+}
+.navbar ul ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+}
+.navbar ul ul li {
+    display: block;
+    transform: translateX(-25%);
+}
+.navbar ul ul li a:hover {
+    font-size: x-large;
+}
+.navbar li a:hover {
+    font-weight: bold;
+}
+.navbar li:hover ul {
+    display: block;
+}
 h1 {
     display:flex;
+    margin-top: 10%;
     justify-content:center;
+    color:#B7D5FB;
 }
