@@ -2,12 +2,14 @@
     font-family:"Babylon5";
     src:url("../fonts/Babylon5/B5______.eot") format("eot"),url("../fonts/Babylon5/B5______.woff") format("woff"),url("../fonts/Babylon5/B5______.ttf") format("truetype"),url("../fonts/Babylon5/B5______.svg") format("svg");font-weight:normal;font-style:normal;
 }
+
 .main_body {
     background-image: url(../images/B5_logo.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     font-family:'Babylon5', Courier, monospace;
 }
+
 .navbar {
     justify-content: center;
     position: fixed;
@@ -29,7 +31,7 @@
     display: block;
     text-decoration: none;
     font-size: large;
-    color: #b38848;
+    color: #7578a5;
     padding: 10px 20px;
 }
 .navbar ul ul {
@@ -50,9 +52,10 @@
 .navbar li:hover ul {
     display: block;
 }
+
 h1 {
     display:flex;
     margin-top: 10%;
     justify-content:center;
-    color:#B7D5FB;
+    color: #7578a5;
 }
