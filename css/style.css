@@ -48,6 +48,7 @@
 }
 .navbar li a:hover {
     font-weight: bold;
+    font-size: x-large;
 }
 .navbar li:hover ul {
     display: block;
